@@ -123,7 +123,7 @@ button {
     background-color: #F2F3F8;
     font-family: 'Inter-regular';
     font-size: 14px;
-    color:#8D91A5;
+    color: #8D91A5;
     margin-right: 49px;
 }
 
@@ -166,7 +166,7 @@ button {
 
 .cart_txt {
     font-style: italic;
-    color:#4C5068;
+    color: #4C5068;
 }
 
 .main {
@@ -529,7 +529,7 @@ button {
 
 .publications_card:nth-child(2),
 .publications_card:nth-child(3) {
-justify-content: space-between;
+    justify-content: space-between;
 }
 
 .publications_card .int_med_16 {
@@ -647,4 +647,554 @@ justify-content: space-between;
 
 .footer_bottom a {
     color: #8D91A5;
+}
+
+.header_scroll {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+    /* display: none; */
+}
+
+.header_scroll_top {
+    background: #fff;
+    max-height: 86px;
+
+}
+
+.scroll_container {
+    min-height: 86px !important;
+}
+
+.header_input_scroll {
+    min-width: 590px;
+    margin-right: 184px;
+}
+
+.header_data_scroll {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.header_cart_scroll {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+}
+
+.hide {
+    display: none !important;
+}
+
+.header_scroll_bottom {
+    background: #D9DBE6;
+}
+
+.scroll_bottom_container {
+    min-height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.header_scroll_block {
+    padding: 8px 15px;
+    box-shadow: 2px 2px 8px 0px #8D91A54D;
+    border-radius: 15px;
+    background: #fff;
+}
+
+.header_scroll_block p {
+    color: #4C5068;
+}
+
+.header_scroll_block:hover .scroll_hover {
+    color: #F71055;
+}
+
+.col_g {
+    color: #4C5068 !important;
+}
+
+.col_g a {
+    color: #4C5068 !important;
+}
+
+a.col_r {
+    color: #F71055 !important;
+}
+
+.menu {
+    position: fixed;
+    /* height: 100vh; */
+    background: #D9DBE6;
+    padding: 23px 71px;
+    left: 0;
+    z-index: 100;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+.menu_btn {
+    position: absolute;
+    top: 40px;
+    right: 25px;
+}
+
+@media (max-width: 1440px) {
+    .container {
+        width: 90.28vw;
+    }
+
+    .header_container {
+        min-height: 8.33vw;
+    }
+
+    .logo_img {
+        margin-right: 1.18vw;
+        width: 16.81vw;
+        height: 4.24vw;
+    }
+
+    .footer_top_left img {
+        width: 16.81vw;
+        height: 4.24vw;
+    }
+
+    .footer_bottom img {
+        width: 21.32vw;
+        height: 2.50vw;
+    }
+
+    .title_top_block img {
+        width: 7.01vw;
+        height: 5.35vw;
+    }
+
+    .good_card img {
+        width: 13.19vw;
+        height: 10.56vw;
+    }
+
+    .menu_block {
+        margin-right: 3.19vw;
+    }
+
+    .header_hr {
+        width: 0.07vw;
+        height: 1.53vw;
+        margin-right: 0.97vw;
+    }
+
+    .menu_slides {
+        margin-right: 0.56vw;
+    }
+
+    .int_reg_8 {
+        font-size: 0.56vw;
+    }
+
+    .int_reg_10 {
+        font-size: 0.69vw;
+    }
+
+    .int_reg_12 {
+        font-size: 0.83vw;
+    }
+
+    .int_reg_14 {
+        font-size: 0.97vw;
+    }
+
+    .int_reg_15 {
+        font-size: 1.04vw;
+    }
+
+    .int_reg_16 {
+        font-size: 1.11vw;
+    }
+
+    .header_input {
+        border-radius: 1.39vw;
+        padding: 1.04vw 1.60vw 1.04vw 2.22vw;
+        width: 21.11vw;
+        font-size: 0.97vw;
+        margin-right: 3.40vw;
+    }
+
+    .header_data {
+        gap: 1.04vw;
+        margin-right: 12.50vw;
+    }
+
+    .header_location {
+        gap: 0.56vw;
+    }
+
+    .call_mini_txt {
+        bottom: -0.35vw;
+        right: 0;
+    }
+
+    .cart_btn {
+        gap: 0.69vw;
+    }
+
+    .main {
+        padding-top: 2.43vw;
+    }
+
+    .main_top_left {
+        padding: 2.85vw 0 0 2.85vw;
+    }
+
+    .main_top {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 25.28vw;
+        gap: 1.11vw;
+        margin-bottom: 1.32vw;
+    }
+
+    .main_card {
+        border-radius: 1.74vw;
+    }
+
+    .mons_bold_28 {
+        font-size: 1.94vw;
+    }
+
+    .mons_bold_18 {
+        font-size: 1.25vw;
+    }
+
+    .int_med_16 {
+        font-size: 1.11vw;
+    }
+
+    .top_left_btn {
+        gap: 0.69vw;
+        border-radius: 1.39vw;
+        padding: 0.97vw 1.25vw;
+        right: 2.57vw;
+        bottom: 9.03vw;
+    }
+
+    .main_top_right {
+        display: grid;
+        gap: 1.11vw;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 16.32vw 1fr;
+    }
+
+    .main_top_right a div {
+        padding: 2.08vw 2.85vw;
+    }
+
+    .mons_bold_22 {
+        font-size: 1.53vw;
+    }
+
+    .good_price_btn svg {
+        width: 1.39vw !important;
+        height: 1.39vw !important;
+    }
+
+    .row_original {
+        top: 4.17vw;
+        right: 1.81vw;
+    }
+
+    .row_nonoriginal {
+        top: 5.21vw;
+        right: 1.81vw;
+    }
+
+    .card_right_bottom {
+        gap: 2.43vw;
+    }
+
+    .main_titles {
+        margin-bottom: 4.17vw;
+    }
+
+    .main_titles_top {
+        padding: 2.71vw 3.06vw 2.29vw 4.93vw;
+        border-radius: 1.39vw;
+        margin-bottom: 1.32vw;
+    }
+
+    .titles_top_lists {
+        gap: 0.56vw;
+    }
+
+    .title_top_block_last {
+        border-radius: 1.39vw;
+        width: 6.88vw;
+        height: 5.21vw;
+        padding-top: 1.39vw;
+        padding-left: 1.04vw;
+    }
+
+    .title_top_block_last svg {
+        position: absolute;
+        top: 2.71vw;
+        right: 1.32vw;
+    }
+
+    .main_titles_bottom {
+        grid-template-columns: 53.61vw 1fr;
+        gap: 1.04vw;
+    }
+
+    .title_bottom_left {
+        background: url('./img/Mask2.png');
+        padding: 2.43vw 4.58vw 2.15vw 4.93vw;
+        gap: 1.74vw;
+        background-size: cover;
+    }
+
+    .title_bottom_right {
+        background: url('./img/Mask3.png');
+        background-size: cover;
+    }
+
+    .title_bottom_right {
+        gap: 2.64vw;
+        padding: 2.43vw 2.92vw 2.22vw 2.92vw;
+    }
+
+    .main_goods {
+        gap: 1.25vw;
+        margin-bottom: 4.17vw;
+    }
+
+    .main_goods_title {
+        gap: 1.18vw;
+    }
+
+    .main_goods_btn {
+        padding: 0.56vw 0.76vw 0.56vw 1.04vw;
+        gap: 0.35vw;
+        border-radius: 1.04vw;
+    }
+
+    .main_goods_slides {
+        margin-top: 1.25vw;
+    }
+
+    .main_goods_viewport {
+        gap: 0.83vw;
+    }
+
+    .good_card {
+        border-radius: 1.39vw;
+        padding: 2.01vw 2.78vw 0.97vw 1.46vw;
+    }
+
+    .good_card img {
+        margin-bottom: 1.60vw;
+    }
+
+    .good_article_block {
+        gap: 0.56vw;
+        margin-bottom: 0.56vw;
+    }
+
+    .m75 {
+        min-height: 5.21vw;
+    }
+
+    .good_price_block {
+        margin-top: 3.47vw;
+    }
+
+    .good_price_btn {
+        padding: 0.69vw 2.47vw;
+        border-radius: 3.47vw;
+    }
+
+    .advantages {
+        margin-bottom: 4.17vw;
+    }
+
+    .advantages_list {
+        margin-top: 1.74vw;
+        gap: 1.94vw;
+    }
+
+    .advantages_card {
+        width: 21.04vw;
+        height: 27.50vw;
+        border-radius: 1.39vw;
+        padding: 21.39vw 0 0 2.78vw;
+    }
+
+    .advantages_card:nth-child(1) {
+        background: url('./img/card6.png');
+        background-size: cover;
+    }
+
+    .advantages_card:nth-child(2) {
+        background: url('./img/card7.png');
+        background-size: cover;
+    }
+
+    .advantages_card:nth-child(3) {
+        background: url('./img/card8.png');
+        background-size: cover;
+    }
+
+    .advantages_card:nth-child(4) {
+        background: url('./img/card9.png');
+        background-size: cover;
+    }
+
+    .publications {
+        gap: 1.25vw;
+        margin-bottom: 4.17vw;
+    }
+
+    .publications_list {
+        grid-template-columns: 44.72vw 1fr 1fr;
+        gap: 0.83vw;
+    }
+
+    .publications_card {
+        border-radius: 1.74vw;
+        padding: 2.22vw 2.57vw;
+    }
+
+    .publications_card p.int_reg_12 {
+        margin-top: 0.69vw;
+        margin-bottom: 0.69vw;
+    }
+
+    .publications_btn {
+        border-radius: 1.04vw;
+        padding: 0.56vw 0.69vw 0.56vw 1.04vw;
+        gap: 0.35vw;
+        max-width: 5.76vw;
+    }
+
+    .banner {
+        gap: 0.35vw;
+        margin-bottom: 4.51vw;
+        background: url('./img/Mask4.png');
+        background-size: cover;
+        padding: 5.90vw 44.79vw 4.03vw 5.49vw;
+    }
+    .banner_btn {
+        padding: 1.11vw 1.53vw;
+        border-radius: 1.39vw;
+        gap: 0.42vw;
+        max-width: 13.82vw;
+    }
+
+    .footer {
+        padding: 4.17vw 0;
+    }
+
+    .footer_top_left {
+        margin-bottom: 2.99vw;
+        margin-right: 4.86vw;
+    }
+
+    .footer_contacts {
+        gap: 1.53vw;
+    }
+
+    .footer_contact {
+        gap: 0.35vw;
+    }
+
+    .int_reg_8 {
+        bottom: -0.35vw;
+        right: 0;
+    }
+
+    .footer_top_right {
+        gap: 7.78vw;
+        padding-top: 1.39vw;
+    }
+
+    .footer_right_block h3 {
+        margin-bottom: 0.97vw;
+    }
+
+    .footer_right_mini {
+        gap: 0.56vw;
+    }
+
+    .footer_img {
+        margin-top: 3.13vw;
+        width: 6.18vw;
+        height: 12.15vw;
+    }
+
+    .footer_bottom {
+        margin-top: 6.39vw;
+    }
+
+    .header_scroll_top {
+        max-height: 5.97vw;
+    }
+
+    .scroll_container {
+        min-height: 5.97vw !important;
+    }
+
+    .header_input_scroll {
+        min-width: 40.97vw;
+        margin-right: 12.78vw;
+    }
+
+    .header_data_scroll {
+        gap: 0.90vw;
+        margin-right: 1.39vw;
+    }
+
+    .header_cart_scroll {
+        gap: 0.90vw;
+    }
+
+    .scroll_bottom_container {
+        min-height: 3.75vw;
+        gap: 0.69vw;
+    }
+
+    .header_scroll_block {
+        padding: 0.56vw 1.04vw;
+        box-shadow: 0.14vw 0.14vw 0.56vw 0px #8D91A54D;
+        border-radius: 1.04vw;
+    }
+
+    .header_scroll_block p {
+        color: #4C5068;
+    }
+
+    .menu {
+        padding: 1.60vw 4.93vw;
+        gap: 2.01vw;
+    }
+
+    .menu_btn {
+        top: 2.78vw;
+        right: 1.74vw;
+    }
+
+    .menu_btn svg {
+        width: 2.43vw !important;
+        height: 1.74vw !important;
+    }
+}
+
+@media (max-width: 800px) {
+    
 }
