@@ -41,6 +41,10 @@ button {
     background-color: #fff;
 }
 
+.header_mobile {
+    display: none;
+}
+
 .container {
     width: 1300px;
     margin: 0 auto;
@@ -361,6 +365,7 @@ button {
     flex-direction: column;
     gap: 18px;
     margin-bottom: 60px;
+    position: relative;
 }
 
 .main_goods_title {
@@ -392,11 +397,35 @@ button {
     overflow: hidden;
     margin-top: 18px;
     position: relative;
+    min-height: 410px;
+}
+
+.goods_back_btn {
+    left: -15px;
+}
+
+.goods_next_btn {
+    right: -15px;
+}
+
+.goods_btn {
+    position: absolute;
+    background: #fff;
+    box-shadow: 2px 2px 8px 0px #8D91A54D;
+    border-radius: 15px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 223px;
+    z-index: 100;
 }
 
 .main_goods_viewport {
     display: flex;
     gap: 12px;
+    position: absolute;
 }
 
 .good_card {
@@ -987,6 +1016,23 @@ a.col_r {
 
     .main_goods_slides {
         margin-top: 1.25vw;
+        min-height: 28.47vw;
+    }
+
+    .goods_back_btn {
+        left: -1.04vw;
+    }
+    
+    .goods_next_btn {
+        right: -1.04vw;
+    }
+    
+    .goods_btn {
+        box-shadow: 2px 2px 8px 0px #8D91A54D;
+        border-radius: 1.04vw;
+        width: 2.22vw;
+        height: 2.22vw;
+        top: 15.49vw;
     }
 
     .main_goods_viewport {
@@ -1196,5 +1242,175 @@ a.col_r {
 }
 
 @media (max-width: 800px) {
+    .header {
+        display: none;
+    }
+
+    .header_scroll {
+        display: none;
+    }
+
+    .header_mobile {
+        display: block;
+        background-color: #fff;
+        padding: 5.12vw 0;
+    }
+
+    .header_mobile_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        width: 92.88vw;
+    }
+
+    .header_mobile_top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5.35vw;
+    }
+
+    .call_mini_txt {
+        bottom: -1.75vw;
+        color: #797C8E;
+    }
+
+    .location_svg {
+        width: 3.02vw !important;
+        height: 3.72vw !important;
+    }
+
+    .header_phone {
+        width: 4.42vw !important;
+        height: 4.42vw !important;
+    }
+
+    .header_mobile_bottom {
+        display: flex;
+    }
+
+    .logo_img {
+        width: 27.67vw;
+        height: 6.74vw;
+        margin-right: 3.02vw;
+    }
+
+    .header_input {
+        width: 26.51vw;
+        height: 7.91vw;
+        margin-right: 20.81vw;
+    }
+
+    .header_mobile_data {
+        display: flex;
+        align-items: center;
+        gap: 3.02vw;
+    }
+
+    .header_mobile_cart {
+        width: 3.49vw;
+        height: 3.49vw;
+    }
+
+    .header_hr {
+        width: 0.23vw;
+        height: 5.12vw;
+    }
+
+    .menu_slides {
+        width: 3.95vw !important;
+        height: 2.56vw !important;
+    }
+
+    .main_top {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main_top_left {
+        width: 100% !important;
+        padding: 4.42vw 0 0 6.05vw;
+        height: 54.19vw;
+        background: url('./img/card1_mobile.png');
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+
+    .mons_mobile_18 {
+        font-family: 'Montserrat-bold';
+        font-size: 4.19vw;
+    }
+
+    .main_top_right {
+        display: flex;
+        gap: 2.33vw;
+        flex-wrap: wrap;
+    }
+
+    .main_card {
+        width: 44.28vw;
+    }
+
+    .main_top_right a div {
+        padding: 6.05vw 5.35vw;
+    }
+
+    .right_card_one {
+        background: url('./img/card2_mobile.png');
+        /* width: 46.28vw; */
+        height: 34.65vw;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+
+    .right_card_two {
+        /* width: 46.28vw; */
+        height: 34.65vw;
+        background: url('./img/card3_mobile.png');
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+
+    .mons_mobile_14 {
+        font-family: 'Montserrat-bold';
+        font-size: 3.26vw;
+    }
+
     
+
+    .int_med_16 {
+        font-size: 3vw;
+    }
+
+    .int_reg_8 {
+        font-family: 'Inter-regular';
+        font-size: 1.86vw;
+    }
+    
+    .int_reg_10 {
+        font-family: 'Inter-regular';
+        font-size: 2.33vw;
+    }
+    
+    .int_reg_12 {
+        font-family: 'Inter-regular';
+        font-size: 2.79vw;
+    }
+    
+    .int_reg_14 {
+        font-family: 'Inter-regular';
+        font-size: 3.26vw;
+    }
+    
+    .int_reg_15 {
+        font-family: 'Inter-regular';
+        font-size: 3.49vw;
+    }
+    
+    .int_reg_16 {
+        font-family: 'Inter-regular';
+        font-size: 3.72vw;
+    }
 }
