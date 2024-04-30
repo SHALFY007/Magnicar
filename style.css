@@ -1373,6 +1373,10 @@ a.col_r {
         background-position: bottom;
     }
 
+    .main_card {
+        background-color: #fff !important;
+    }
+
     .mons_mobile_14 {
         font-family: 'Montserrat-bold';
         font-size: 3.26vw;
